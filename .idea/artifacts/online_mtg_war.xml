@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="online_mtg:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>online_mtg</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="online_mtg-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="online_mtg:war exploded" />
+    </root>
+  </artifact>
+</component>
